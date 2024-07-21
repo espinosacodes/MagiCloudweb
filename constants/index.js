@@ -2,27 +2,27 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Modern Technologies',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Personalized Approach',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'Comprehensive Services',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: 'Ongoing Support',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'Agile Methodology',
   },
 ];
 
@@ -35,15 +35,15 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Web Development',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        `Designing and building a unique website tailored to an individual's specific needs and preferences.`,
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Hosting',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        `Providing space on a server to store your website so it's accessible on the internet.`,
   },
 ];
 
