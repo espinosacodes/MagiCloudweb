@@ -15,21 +15,27 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="relative w-full md:-mt-[20px] -mt-[12px]">
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
+      <div
+    className="absolute w-full h-[300px] rounded-tl-[140px] z-[0] -top-[30px]"
+    style={{
+      background: "linear-gradient(90deg, rgba(50,60,80,0.8673844537815126) 0%, rgba(51,109,132,1) 100%)"
+    }}
+  />
 
-        <img
-          src="/cover.png"
-          alt="hero_cover"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
-        />
+        <div
+          className="w-full sm:h-[500px] h-[350px] rounded-tl-[140px] z-10 relative"
+          style={{ background: "rgb(19,29,41)",
+            background: "linear-gradient(90deg, rgba(19,29,41,0.8673844537815126) 0%, rgba(21,79,102,1) 100%)" }}
+        ></div>
 
         <div
           className="absolute inset-0 flex justify-center items-center z-20"
-          style={{ top: "-60px" }}
+          style={{ top: "-30px" }}
         >
           <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
             MagiCloud
           </motion.h1>
+          
         </div>
 
         <a href="#explore">
@@ -38,8 +44,8 @@ const Hero = () => (
             style={{ top: "-20px" }}
           >
             <img
-              src="/logo.png"
-              alt="logo"
+              src="/stamp.png"
+              alt="stamp"
               className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
             />
           </div>
