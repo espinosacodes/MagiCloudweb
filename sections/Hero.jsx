@@ -58,7 +58,7 @@ const Hero = () => (
           <img
             src="/cloud-left.png"
             alt="cloud-left"
-            className="sm:w-[500px] sm:h-[300px] md:w-[400px] md:h-[250px] w-[300px] h-[200px] object-contain cloud-left"
+            className="w-[300px] h-[200px] md:w-[400px] md:h-[250px] lg:w-[500px] lg:h-[300px] object-contain cloud-left"
             style={{ opacity: 0.8 }}
           />
         </motion.div>
@@ -78,7 +78,7 @@ const Hero = () => (
           <img
             src="/cloud-right.png"
             alt="cloud-right"
-            className="sm:w-[500px] sm:h-[300px] md:w-[400px] md:h-[250px] w-[300px] h-[200px] object-contain cloud-right"
+            className="w-[300px] h-[200px] md:w-[400px] md:h-[250px] lg:w-[500px] lg:h-[300px] object-contain cloud-right"
             style={{ opacity: 0.8 }}
           />
         </motion.div>
